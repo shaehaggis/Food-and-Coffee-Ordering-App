@@ -395,7 +395,7 @@ for (let i = 0; i < incrementers.length; i++) {
 document
   .getElementsByClassName("last-add")[0]
   .addEventListener("click", function () {
-    document.getElementsByClassName("last-one")[0].style.marginBottom = "150px";
+    document.getElementsByClassName("last-one")[0].style.marginBottom = "70px";
     document.getElementsByClassName("last-info")[0].style.marginBottom =
       "400px";
   });
@@ -403,7 +403,7 @@ document
 document
   .getElementsByClassName("last-confirm")[0]
   .addEventListener("click", function () {
-    document.getElementsByClassName("last-one")[0].style.marginBottom = "400px";
+    document.getElementsByClassName("last-one")[0].style.marginBottom = "150px";
     document.getElementsByClassName("last-info")[0].style.marginBottom =
-      "150px";
+      "400px";
   });
