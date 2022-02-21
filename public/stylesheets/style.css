@@ -3,8 +3,8 @@
 }
 
 body {
-  /* background-image: url("../images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg"); */
-  background-color: white;
+  background-image: url("../images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg");
+  /* background-color: white; */
 }
 
 a {
@@ -13,6 +13,7 @@ a {
 
 main {
   width: 90%;
+  max-width: 1250px;
   padding: 0;
   margin: auto;
 }
@@ -92,8 +93,8 @@ h3 {
 
 .extra-info-coffee input[type="radio"],
 .extra-info-bb input[type="checkbox"] {
-  width: 1em;
-  height: 1em;
+  width: 3.5vmin;
+  height: 3.5vmin;
   margin-left: 2%;
 }
 
